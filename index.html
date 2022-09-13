@@ -65,6 +65,7 @@ padding: 20px;
 .footer{
 	padding: 20px;
 	text-align: center;
+
 	background: #333;
 	color: white;
 }
@@ -79,25 +80,42 @@ padding: 20px;
 		width: 100%
 	}
 }
-</style>
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 70%; background-color: #04AA6D;}
+.css {width: 50%; background-color: #2196F3;}
+.js {width: 1%; background-color: #f44336;}
+.php {width: 1%; background-color: #808080;}
+.mf  {width: 60%; background-color: #412312;}
+ </style>
 </head>
 <body>
 
 <div class="header">
-<h1 style="">My Webset</h1>
-<p style="">Kurikulum Merdeka
+<h1 style="">My Website</h1>
+<p style="">Curiculum Vitae</p>
 </div>
 
 <div class="navbar">
 <a href="https://www.instagram.com/whyufrdnsyah/">Instagram</a>
 <a href="https://github.com/smkrealinformatika">Git Hub</a>
 <a href="https://www.youtube.com/">Youtube</a>
-<a href="http://localhost/pwpb/a.html" class="right">Rahasia</a>
+
 </div>
 <div class="row">
 <div class="side">
-<h2>Tentang KU</h2>
-<h5>Photo KU</h5>
+<h2>Tentang</h2>
+<h5>Photo</h5>
 <div class="fakeimg" style=" background-image: url(img/anime.jpg); height: 175px;">  </div>
 <p>ABANG WAHYU FERDIANSYAH</p><br>
 <h3>Contact ME  <i class="fa-solid fa-phone-flip"></i></h3>
@@ -107,7 +125,7 @@ padding: 20px;
 
 </div>
 <div class="main">
-<h1><i class="fa-solid fa-school"></i> PENDIDIKAN</h1>
+<h1>       Pendidikan</h1>
 
 <ul>
 	<li>
@@ -128,14 +146,36 @@ padding: 20px;
 	</LI>
 </UL>
 <br>
-<h1><i class="fa-regular fa-thumbs-up"></i> Skill</h1>
-<p>text</p>
-<p>.................................................................................................</p>
+
+<h1>My Skills</h1> 
+
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">70%</div>
 </div>
+<p>Micrrosoft Office</p>
+<div class="container">
+  <div class="skills mf">60%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">50%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">1%</div>
+</div>
+
+<p>PHP</p>
+<div class="container">
+  <div class="skills php">1%</div>
+</div>
+
 </div>
 <div class="footer">
 	<h2>Tamat</h2>
-
 </div>
 </body>
 </html>
